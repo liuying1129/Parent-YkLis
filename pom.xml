@@ -20,14 +20,14 @@
 		<!-- 顺序无关，maven会根据依赖关系进行排序、编译 -->
 
 		<!-- 平行目录结构 -->
-	    <module>../JAR-YkLisFunction</module>
-	    <module>../SRC_YkLis</module>
+	    <module>../JAR-LisFunction</module>
+	    <module>../WAR-YkLis</module>
 
 	    <!-- 父子目录结构 -->	    
-	    <!-- <module>SRC_YkLis</module>
-	    <module>JAR-YkLisFunction</module> -->
+	    <!-- <module>WAR-YkLis</module>
+	    <module>JAR-LisFunction</module> -->
 
-	    <!-- SRC_YkLis、JAR-YkLisFunction是子项目的目录名称 -->
+	    <!-- WAR-YkLis、JAR-LisFunction是子项目的目录名称 -->
 	</modules>
 
 </project>
