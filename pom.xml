@@ -1,0 +1,33 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+  http://maven.apache.org/POM/4.0.0 
+  http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+    <!-- 父项目仅仅是一个pom.xml文件,它只是用来帮助其它模块构建的工具,本身并没有实质的内容 -->
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- 对于父项目来说，这3项必需，但值可随意 -->
+	<groupId>com.yklis123456789</groupId>
+	<artifactId>YkLis-Parent123456789</artifactId>
+	<version>1.0-SNAPSHOT123456789</version>
+
+	<packaging>pom</packaging>
+
+	<!-- 聚合 -->
+	<modules>
+		<!-- 顺序无关，maven会根据依赖关系进行排序、编译 -->
+
+		<!-- 平行目录结构 -->
+	    <module>../JAR-YkLisFunction</module>
+	    <module>../SRC_YkLis</module>
+
+	    <!-- 父子目录结构 -->	    
+	    <!-- <module>SRC_YkLis</module>
+	    <module>JAR-YkLisFunction</module> -->
+
+	    <!-- SRC_YkLis、JAR-YkLisFunction是子项目的目录名称 -->
+	</modules>
+
+</project>
