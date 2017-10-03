@@ -22,12 +22,14 @@
 		<!-- 平行目录结构 -->
 	    <module>../JAR-LisFunction</module>
 	    <module>../WAR-YkLis</module>
+	    <module>../JAR-LYFunction</module>
 
 	    <!-- 父子目录结构 -->	    
 	    <!-- <module>WAR-YkLis</module>
-	    <module>JAR-LisFunction</module> -->
+	    <module>JAR-LisFunction</module>
+	    <module>JAR-LYFunction</module> -->
 
-	    <!-- WAR-YkLis、JAR-LisFunction是子项目的目录名称 -->
+	    <!-- WAR-YkLis、JAR-LisFunction、JAR-LYFunction是子项目的目录名称 -->
 	</modules>
 
 </project>
